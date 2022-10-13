@@ -1,0 +1,638 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-family: system-ui, sans-serif;
+    background-color: #fcf9f9;
+}
+
+nav{
+    font-weight: lighter;
+    opacity: 1;
+    position: sticky;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+}
+
+#main_section_description span{
+    color: #e2ba7b;
+    font-weight: normal;
+}
+
+#main_section_description p{
+    font-weight: lighter;
+}
+
+#main_section_btn{
+    border-top: none;
+    border-bottom: none;
+    background-color: #fcf9f9;
+    border-color: #65aa44;
+}
+
+
+.section_heading{
+    border-top: none;
+    border-right: none;
+    border-color: #65aa44;
+    border-left: 0.5208333333333334vw solid #65aa44 ;
+    border-bottom: 0.10416666666666667vw solid  #65aa44;
+}
+
+.section_heading h2{
+    vertical-align: middle;
+    font-weight: normal;
+}
+
+
+.trading_section_items h3{
+    color: #65aa44;
+}
+
+
+
+.offer_section_items{
+    display: flex;
+}
+
+.offer_section_items p{
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+th, td{
+    border: 0.15625vw solid #e2ba7b;
+}
+
+.first_col{
+    font-weight: bold;
+}
+
+#ps{
+    font-style: italic;
+}
+
+#vacancy_section_description ul li::before{
+    content: "\2022";
+    color: #e2ba7b;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1em;
+}
+
+#news_section_container{
+    display: flex;
+}
+
+.news_section_item{
+    display: flex;
+    box-shadow: 0 0 0.625vw 0 rgba(61, 55, 61, 0.7);
+}
+
+.news_section_item h4 {
+    font-weight: 500;
+}
+
+.news_section_item p {
+    font-weight: lighter;
+}
+
+.last_item{
+    margin-right: 0;
+}
+
+footer{
+    background-color: #f5f5f5;
+}
+
+.footer_items{
+    display: flex;
+}
+
+#contact_item img{
+    display: block;
+}
+
+.footer_items_description{
+    font-weight: lighter;
+}
+
+
+@media (min-width: 992px) {
+    nav{
+        margin-top: 0.8333333333333334vw;
+        font-size: 1.5625vw;
+        margin-left: 24.0625vw;
+    }
+
+    nav li {
+        margin-right: 4.947916666666667vw;
+    }
+    #main_section{
+        display: flex;
+    }
+
+    #main_section_img{
+        display: flex;
+        width: 39.0625vw;
+        height: 39.0625vw;
+    }
+
+    #main_section_description{
+
+        margin-top: 9.114583333333334vw;
+        padding-left: 1.0416666666666667vw;
+
+    }
+
+    #main_section_description span{
+        font-size: 2.6041666666666665vw;
+    }
+
+    #main_section_description p{
+        font-size: 2.6041666666666665vw;
+    }
+
+    #main_section_btn{
+        margin-top: 1.9270833333333333vw;
+        width: 15.625vw;
+        height: 3.125vw;
+        font-size: 1.0416666666666667vw;
+    }
+
+   main{
+       margin-left: 5.208333333333333vw;
+       margin-right: 3.90625vw;
+   }
+
+    .section_heading{
+        margin-top: 2.0833333333333335vw;
+        height: 2.6041666666666665vw;
+    }
+
+    .section_heading h2{
+        line-height: 1.40625vw;
+        padding-left: 1.0416666666666667vw;
+        margin-bottom: 1.0416666666666667vw;
+        font-size: 2.0833333333333335vw;
+    }
+
+    #trading_section_description p{
+        margin-top: 0.8854166666666666vw;
+        font-size: 0.9895833333333334vw;
+    }
+
+    #trading_section_container{
+        margin-top: 1.5625vw;
+        display: flex;
+    }
+
+    .trading_section_items{
+        margin-right: 4.6875vw;
+        margin-bottom: 3.125vw;
+    }
+
+    .trading_section_items h3{
+        font-size: 1.8229166666666667vw;
+    }
+
+
+    #offer_section_description p {
+        margin-top: 1.0416666666666667vw;
+        font-size: 0.9895833333333334vw;
+    }
+
+    #offer_section_container{
+        margin-bottom: 2.0833333333333335vw;
+        display: flex;
+    }
+
+    .offer_section_items{
+        margin-top: 1.3020833333333333vw;
+        margin-right: 6.25vw;
+    }
+
+    .offer_section_items img {
+        width: 2.6041666666666665vw;
+        height: 2.1875vw;
+    }
+
+    .offer_section_items p{
+        font-size: 1.25vw;
+        margin-left: 1.6666666666666667vw;
+    }
+
+    #purchase{
+        margin-top: 4.6875vw;
+    }
+
+    #purchase_section_description p{
+        margin-top: 1.0416666666666667vw;
+        font-size: 0.9895833333333334vw;
+    }
+
+    table{
+        font-size: 1.0416666666666667vw;
+        margin-top: 1.0416666666666667vw;
+        height: 13.020833333333334vw;
+    }
+
+    #vacancy{
+        margin-top: 5.208333333333333vw;
+    }
+
+    #vacancy_section_description{
+        margin-top: 1.1979166666666667vw;
+        font-size: 0.9895833333333334vw;
+    }
+
+    #vacancy_section_description ul{
+        margin-top: 1.0416666666666667vw;
+        margin-left: 2.6041666666666665vw;
+    }
+
+    #news{
+        margin-top: 5.729166666666667vw;
+    }
+
+    #news_section_container{
+        margin-top: 2.6041666666666665vw;
+    }
+
+    .news_section_item{
+        margin-right: 2.6041666666666665vw;
+    }
+
+    .news_section_item img{
+        margin: 1.0416666666666667vw 1.0416666666666667vw 0 1.0416666666666667vw;
+        width:  6.770833333333333vw;
+        height: 7.8125vw;
+    }
+
+    .news_section_item h4 {
+        margin-right: 1.5625vw;
+        margin-top: 1.0416666666666667vw;
+        font-size: 1.0416666666666667vw;;
+    }
+
+    .news_section_item p {
+        line-height: 1.5625vw;
+        font-size: 0.9375vw;
+        margin-right: 1.5625vw;
+    }
+
+    .last_item{
+        margin-right: 0;
+    }
+
+    footer{
+        margin-top: 2.6041666666666665vw;
+        display: flex;
+    }
+
+    footer h3{
+        font-size: 1.1979166666666667vw;
+    }
+
+    .footer_items{
+        margin-left: 6.25vw;
+    }
+
+    #contact_item{
+        margin-left: 2.6041666666666665vw;
+    }
+
+    #contact_item img{
+        margin-top: 1.9270833333333333vw;
+        width: 2.0833333333333335vw;
+        height: 2.0833333333333335vw;
+    }
+
+    .footer_items_description{
+        margin-left: 0.78125vw;
+        font-size: 1.0416666666666667vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px ) {
+    nav{
+        display: block;
+        margin-left: 25.227043390515vw;
+        margin-top: 2.0181634712412vw;
+    }
+
+    nav li{
+        font-size: 2.3208879919273vw;
+        margin-right: 7.064vw;
+        width: 5.045vw;
+        vertical-align: top;
+        text-align: center;
+    }
+
+    #main_section{
+        display: flex;
+    }
+    #main_section_img{
+        width: 63.068vw;
+        height: 63.068vw;
+    }
+
+    #main_section_description{
+        margin-top: 19.173vw;
+        margin-left: -22.200vw;
+        font-size: 3.229vw;
+    }
+
+    #main_section_btn{
+        margin-top: 7.064vw;
+        width: 18.163vw;
+        height: 5.045vw;
+    }
+
+    main{
+        margin-left: 5.045vw;
+        margin-right: 5.045vw;
+    }
+
+    .section_heading{
+        border-left: 1.009vw solid  #65aa44;
+    }
+
+    .section_heading h2{
+        line-height: 3.027vw;
+        padding-left: 2.0181634712412vw;
+        margin-bottom: 2.0181634712412vw;
+        font-size: 3.835vw;
+    }
+
+    #trading_section_description p, #offer_section_description p, #purchase_section_description p {
+        margin-top: 2.0181634712412vw;
+        font-size: 1.816vw;
+    }
+
+    #trading_section_container{
+        margin-top: 2.0181634712412vw;
+        display: flex;
+
+    }
+
+    .trading_section_items{
+        margin-right: 3.027vw;
+        margin-bottom: 2.0181634712412vw;
+    }
+
+    .trading_section_items h3{
+        font-size: 3.229vw;
+    }
+
+
+    #offer_section_container{
+        display: flex;
+        margin-bottom: 2.0833333333333335vw;
+        flex-wrap: wrap;
+    }
+
+    .offer_section_items{
+        width: 40.363vw;
+        margin-top: 2.0181634712412vw;
+    }
+
+    .offer_section_items img {
+        width: 4.541vw;
+        height: 4.541vw;
+    }
+
+    .offer_section_items p{
+        font-size: 6.054vw;
+        margin-left: 3.027vw;
+    }
+
+    #purchase, #vacancy, #news{
+        margin-top: 4.036vw;
+    }
+
+    #vacancy_section_description{
+        margin-top: 2.0181634712412vw;
+        font-size: 1.715vw;
+    }
+
+    #vacancy_section_description ul{
+        margin-top: 2.0181634712412vw;
+        margin-left: 4.036vw;
+    }
+
+    #news_section_container{
+        margin-top: 2.0181634712412vw;
+        display: block;
+    }
+
+    .news_section_item{
+        margin-top: 5.045vw;
+    }
+
+    .news_section_item img{
+        margin: 2.0181634712412vw;
+        width:  12.109vw;
+        height: 15.136vw;
+    }
+
+    .news_section_item h4 {
+        margin-top: 2.0181634712412vw;
+        font-size: 2.0181634712412vw;
+    }
+
+    .news_section_item p {
+        font-size: 2.0181634712412vw;
+    }
+
+    footer{
+        margin-top: 2.0181634712412vw;
+        display: block;
+    }
+
+    #contact_item img{
+        display: inline-block;
+        width: 3.027vw;
+        height: 3.027vw;
+    }
+
+    .footer_items_heading{
+        width: 27.245vw;
+    }
+
+    .footer_items{
+        margin-bottom: 2.0181634712412vw;
+    }
+
+    .last_item{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px){
+    nav{
+        margin-left: 6.510vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav li{
+        margin-right: 3.906vw;
+        width: 23.438vw;
+        height: 6.510vw;
+        font-size: 2.865vw;
+    }
+
+
+    #main_section img{
+        width: 63.068vw;
+        height: 63.068vw;
+        position: absolute;
+        z-index: -1;
+    }
+
+    #main_section_description{
+        padding-top: 26.042vw;
+        margin-top: 0;
+        margin-left: 6.510vw;
+        margin-right: 6.510vw;
+        position: relative;
+        display: block;
+        z-index: 0;
+        font-size: 2.604vw;
+        text-align: center;
+    }
+
+    #main_section_btn{
+        margin-top: 7.064vw;
+        width: 18.163vw;
+        height: 5.045vw;
+    }
+
+    main{
+        margin-left: 6.510vw;
+        margin-right: 6.510vw;
+    }
+
+    #trading, #offer, #news {
+        margin-top: 6.510vw;
+    }
+
+    #trading p, #offer_section_description p, #vacancy_section_description p {
+        font-size: 2.604vw;
+        font-weight: lighter;
+        margin-top: 2.604vw;
+    }
+
+    #trading_section_container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .trading_section_items{
+        width: 91.146vw;
+    }
+
+    #offer_section_container{
+        display: flex;
+        margin-bottom: 2.0833333333333335vw;
+        flex-wrap: wrap;
+    }
+
+    .offer_section_items{
+        width: 78.125vw;
+        margin-top: 2.0181634712412vw;
+    }
+
+    .offer_section_items img {
+        width: 4.541vw;
+        height: 4.541vw;
+    }
+
+    #offer_section_container .offer_section_items p{
+        font-size: 2.604vw;
+        font-weight: bold;
+        margin-left: 3.027vw;
+    }
+
+    #purchase{
+        display: none;
+    }
+
+    #vacancy_section_description li,  #news_section_container p{
+        font-size: 2.604vw;
+        font-weight: lighter;
+    }
+
+    #news_section_container h4{
+        font-size: 2.604vw;
+    }
+
+    #news_section_container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .news_section_item{
+        margin-top: 5.045vw;
+        display: flex;
+        width: 78.125vw;
+    }
+    .news_section_item img{
+        width: 13.021vw;
+        height: 19.531vw;
+    }
+
+    footer{
+        margin-top: 2.0181634712412vw;
+        display: block;
+    }
+
+    #contact_item img{
+        display: inline-block;
+        width: 3.027vw;
+        height: 3.027vw;
+    }
+
+    .footer_items_heading{
+        width: 27.245vw;
+    }
+
+    .footer_items{
+        margin-bottom: 2.0181634712412vw;
+    }
+
+    footer h3{
+        font-size: 1.1979166666666667vw;
+    }
+
+    .footer_items_description{
+        margin-left: 0.78125vw;
+        font-size: 1.0416666666666667vw;
+    }
+
+}
